@@ -5,5 +5,20 @@ body{
 
 li{
 font-size: 20px;
+color: wheat
+}
+
+#html{
+     color: rgb(255, 123, 0)
+
+}
+
+#CSS{
+     color: rgb(0, 225, 255)
+
+}
+
+#Javascript{
+     color: rgb(255, 208, 0)
 
 }
