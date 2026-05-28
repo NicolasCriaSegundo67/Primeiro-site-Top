@@ -22,3 +22,21 @@ color: wheat
      color: rgb(255, 208, 0)
 
 }
+
+button{
+     background-color: #2f00ff;
+     padding: 20px 30px; /*Espaço interno */
+     margin: 20px; /* Espaço Externo */
+     border-radius: 15px; /* Borda*/
+     max-width: 100px;
+}
+
+span{
+     font-size: 15px;
+     color: rgb(0, 0, 110);
+}
+
+div{
+     display: flex;
+     flex-direction: column;
+}
