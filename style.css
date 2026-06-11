@@ -1,42 +1,42 @@
-body{
-        background-color: rgb(0, 0, 26);
-        color: aliceblue;
+body {
+    background-color: rgb(0, 0, 26);
+    color: aliceblue;
 }
 
-li{
-font-size: 20px;
-color: wheat
+li {
+    font-size: 20px;
+    color: wheat;
 }
 
-#html{
-     color: rgb(255, 123, 0)
+#html { color: rgb(255, 123, 0); }
+#CSS { color: rgb(0, 225, 255); }
+#Javascript { color: rgb(255, 208, 0); }
 
+button {
+    background-color: #2f00ff;
+    padding: 20px 30px;
+    margin: 20px;
+    border-radius: 15px;
+    max-width: 100px;
 }
 
-#CSS{
-     color: rgb(0, 225, 255)
-
+span {
+    font-size: 15px;
+    color: rgb(0, 0, 110);
 }
 
-#Javascript{
-     color: rgb(255, 208, 0)
-
+div {
+    display: flex;
+    flex-direction: column;
 }
 
-button{
-     background-color: #2f00ff;
-     padding: 20px 30px; /*Espaço interno */
-     margin: 20px; /* Espaço Externo */
-     border-radius: 15px; /* Borda*/
-     max-width: 100px;
+.alto-contraste {
+    background-color: black;
+    color: yellow;
 }
 
-span{
-     font-size: 15px;
-     color: rgb(0, 0, 110);
-}
-
-div{
-     display: flex;
-     flex-direction: column;
+#acessivel{
+     display: fixed;
+     left: 20px
+     bottom: 20px;
 }
