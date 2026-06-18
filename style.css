@@ -30,13 +30,13 @@ div {
     flex-direction: column;
 }
 
-.alto-contraste {
-    background-color: black;
-    color: yellow;
-}
-
 #acessivel{
      display: fixed;
      left: 20px
      bottom: 20px;
+}
+
+.alto-contraste {
+    background-color: black;
+    color: yellow;
 }

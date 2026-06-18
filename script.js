@@ -9,7 +9,7 @@ botaoCurtir.addEventListener("click", () => {
 
 
 
-// Botão A+
+// Botão Aumentar Fonte
 const botaoTamanho = document.getElementById("tamanho");
 tamanho.addEventListener("click", aumentarFonte)
 let fonte = 16;
