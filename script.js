@@ -23,8 +23,14 @@ function aumentarFonte(){
 
 
 // Botão Contraste
-const botaoContraste = document.getElementById("contraste");
 
-botaoContraste.addEventListener("click", () => {
-    document.body.classList.toggle("alto-contraste");
-});
+ const contraste = document.getElementById("contraste")
+    contraste.addEventListener("click", MudarContraste)
+
+// Função Maneira
+    
+function MudarContraste(){
+     document.body.style.color = 'yellow';
+   }
+
+
