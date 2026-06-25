@@ -1,6 +1,10 @@
 body {
     background-color: rgb(0, 0, 26);
     color: aliceblue;
+    display: flex;
+    flex-direction: column;
+
+    
 }
 
 li {
@@ -13,7 +17,7 @@ li {
 #Javascript { color: rgb(255, 208, 0); }
 
 button {
-    background-color: #2f00ff;
+    background-color: #00ffea;
     padding: 20px 30px;
     margin: 20px;
     border-radius: 15px;
